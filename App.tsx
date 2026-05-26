@@ -5,17 +5,21 @@
  * @format
  */
 
-import { NewAppScreen } from '@react-native/new-app-screen';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
+
+import {TestScreen} from "./pages/test-screen/test-screen";
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
 
   return (
+    <SafeAreaProvider>
     <View style={styles.container}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <NewAppScreen templateFileName="App.tsx" />
+      <TestScreen />
     </View>
+    </SafeAreaProvider>
   );
 }
 
