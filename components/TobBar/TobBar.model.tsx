@@ -1,3 +1,11 @@
+interface RightButton {
+    iconName: string;
+    onPress: () => void;
+  }
+
 export interface ITobBarController {
-  title: string;
+    title: string;
+    onBackPress?: () => void; 
+    showBackButton?: boolean;
+    rightButtons?: RightButton[];
 }
