@@ -5,7 +5,8 @@
 
 [рекомендации](docs/recommendations.md)
 
-## ~~Задание №1~~
+## ~~Задание №1~~ 
+[ЗАПИСЬ ЭКРАНА ./SafeRegion.webm](./SafeRegion.webm)
 
 изменить компонент TobBar по [макету](https://www.figma.com/design/NQBdYXvFxHjdarHImVga5X/iOS-Nav-Bar-Variants--Community-?node-id=201-71&t=FpYf9qqOQCzSFeIJ-0).
 начальный компонент для изменения находится  [тут](./components/TobBar)
